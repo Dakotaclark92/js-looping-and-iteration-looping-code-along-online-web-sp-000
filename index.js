@@ -1,7 +1,7 @@
-const cards = ['Lisa', 'Kaitlin', 'Jan'];
+const names = ['Lisa', 'Kaitlin', 'Jan'];
 
-function writeCards (cards) { for (let i = 0; i < cards.length; i++)
-{console.log(`Thank you, ${cards[i]} for the wonderful surprise gift!`);
+function writeCards (names) { for (let i = 0; i < names.length; i++)
+{console.log(`Thank you, ${names[i]} for the wonderful surprise gift!`);
 }
 
 return cards;
