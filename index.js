@@ -8,3 +8,6 @@ return cards;
 }
 
 writeCards(cards);
+
+
+countdown(10);
