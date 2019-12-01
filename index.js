@@ -1,11 +1,10 @@
-const gifts = ["teddy bear", "drone", "doll"];
+const cards = (["Ada", "Brendan", "Ali"], "birthday");
 
-function wrapGifts (gifts) { for (let i = 0; i < gifts.length; i++) 
-{console.log(`Wrapped ${gifts[i]} and added a bow!`);
-  
+function writeCards (cards) { for (let i = 0; i < cards.length; i++)
+{console.log(`Thank you, ${cards[i]} for the wonderful birthday gift!`);
 }
 
-return gifts;
+return cards;
 }
 
-wrapGifts(gifts);
+writeCards(cards);
